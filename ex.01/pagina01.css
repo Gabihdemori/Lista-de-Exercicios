@@ -1,0 +1,27 @@
+*{
+   .horizontal{
+    display: flex;
+    list-style-position: inside;
+
+   }
+
+   .horizontal li{
+    margin-right: 15px;
+   }
+
+   .horizontal1{
+    display: flex;
+    list-style-position: inside;
+
+   }
+
+   .horizontal li{
+    margin-right: 30px;
+   }
+
+   .container3{
+      width: 50%;
+      padding: 15px;
+   }
+
+}

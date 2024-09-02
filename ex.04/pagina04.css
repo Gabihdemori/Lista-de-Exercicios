@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    margin: 30px;
+    width: 100%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+
+
+    & .titulo {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    & .link {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    & .link nav a {
+        color: blue;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 5px;
+    }
+    
+    & .link nav a:hover {
+        color: red;
+        font-size: 18px;
+    }
+}
+
+body{
+    
+    & .tudo{
+        display: flex;
+        width: 100%;
+    }
+
+    & .vermelho{
+        width: 1000px;
+        height: 700px;
+        background-color: red;
+
+    }
+
+    & .verde{
+        width: 1000px;
+        height: 700px;
+        background-color: green;
+    }
+
+    & .azul{
+        width: 1000px;
+        height: 700px;
+        background-color: blue;
+    }
+}
